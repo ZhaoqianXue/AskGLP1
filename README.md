@@ -37,7 +37,7 @@ The offline check uses synthetic reviews and frozen annotation responses. It doe
 
 The study's extraction prompt is v9-prompt-7 in src/weightloss/extraction/reextract.py. The question-answering agent is agent-0.8.5 in src/weightloss/agent. The prompts directory provides readable copies of the instructions used at each stage and links to the corresponding schemas and input builders.
 
-The research workflow requires source records, extracted statements, licensed terminology resources, a local Neo4j graph, and model API credentials supplied by the operator. They are not bundled in this snapshot. File paths in the research runners identify their expected inputs. The code for MedDRA candidate selection retains its restricted gateway checks. Anonymized endpoint text is not an operational endpoint.
+The research workflow requires source records, extracted statements, licensed terminology resources, a local Neo4j graph, and model API credentials supplied by the operator. They are not bundled in this snapshot. File paths in the research runners identify their expected inputs. The code for MedDRA candidate selection retains its restricted gateway checks.
 
 The original user posts and reviews, account identifiers, credentials, and licensed MedDRA vocabulary files are not distributed here. Code availability does not grant permission to redistribute third-party data or terminology.
 
